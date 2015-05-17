@@ -7,6 +7,7 @@ public class DS3 extends Materias implements Porcentajes{
 	double porcantajeSemestral;
 	double notaFinal;
 	
+	//hay que asignarles los porcentajes correctos
 	public DS3(double par, double pro, double sem) {
 		super(par, pro, sem);
 		porParciales = 0;
